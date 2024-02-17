@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="name">
+            Rubel
+        </div>
+        <ul class="menu">
+            <li class="active">
+                <a href="#" >
+                    <i class='bx bxs-dashboard'></i>
+                    <span>DashBoard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-user-circle'></i>
+                    <span>Customers</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-t-shirt'></i>
+                    <span>Orders</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-analyse'></i>
+                    <span>Analytics</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-message-rounded-dots'></i>
+                    <span>Messages</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxl-product-hunt'></i>
+                    <span>Products</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-report'></i>
+                    <span>Report</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-cog'></i>
+                    <span>Settings</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-plus'></i>
+                    <span>Add Product</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-log-out-circle' ></i>
+                    <span>Logout</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="header">
+            <div class="title">
+                <span>Primary</span>
+                <h2>DashBoard</h2>
+            </div>
+            <div class="user-info">
+                <div class="search-box">
+                    <i class='bx bx-search'></i>
+                    <input type="text" placeholder="Search">
+                </div>
+                <img src="pic.png" alt="">
+            </div>
+        </div>
+        <div class="card-container">
+            <h3 class="card-title">Today's Data</h3>
+            <div class="card">
+                <div class="payment light-red">
+                    <div class="card-header">
+                        <div class="amount">
+                            <span class="amount-title">Payment Amount</span>
+                            <span class="amount-value">$500</span>
+                        </div>
+                        <i class='bx bx-dollar icon dark-red'></i>
+                    </div>
+                    <span class="card-detail">**** **** **** 3486</span>
+                </div>
+
+                <div class="payment light-purple">
+                    <div class="card-header">
+                        <div class="amount">
+                            <span class="amount-title">Sales</span>
+                            <span class="amount-value">$500</span>
+                        </div>
+                        <i class='bx bxs-cart icon dark-purple'></i>
+                    </div>
+                    <span class="card-detail">**** **** **** 3486</span>
+                </div>
+
+                <div class="payment light-green">
+                    <div class="card-header">
+                        <div class="amount">
+                            <span class="amount-title">Order</span>
+                            <span class="amount-value">$500</span>
+                        </div>
+                        <i class='bx bxs-t-shirt icon dark-green'></i>
+                    </div>
+                    <span class="card-detail">**** **** **** 3486</span>
+                </div>
+
+                <div class="payment light-blue">
+                    <div class="card-header">
+                        <div class="amount">
+                            <span class="amount-title">Income</span>
+                            <span class="amount-value">$500</span>
+                        </div>
+                        <i class='bx bx-check-shield icon dark-blue'></i>
+                    </div>
+                    <span class="card-detail">**** **** **** 3486</span>
+                </div>
+            </div>
+        </div>
+        <div class="table-container">
+            <h3 class="title">Finance Data</h3>
+            <div class="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Transaction Type</th>
+                            <th>Description</th>
+                            <th>Amount</th>
+                            <th>Category</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>18 Jan 24</td>
+                                <td>Expenses</td>
+                                <td>Office</td>
+                                <td>Supplies</td>
+                                <td>$250</td>
+                                <td>Pending</td>
+                                <td>
+                                    <button>Edit</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="7">Total: $1,000</td>
+                            </tr>
+                        </tfoot>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
